@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>EpiCalendar</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="current-month"></h1>
+    </header>
+    <main>
+      <div id="container">
+        <section id="calendar"></section>
+        <section id="addMeeting">
+          <form>
+            <div>
+              <h4>Meeting Day</h4>
+              <span id="newMeetingDay"> Click on a Day!</span>
+            </div>
+            <div>
+              <h4>Meeting Time</h4>
+              <input type="time" id="newMeetingTime" />
+            </div>
+            <div>
+              <h4>Meeting Name</h4>
+              <input
+                type="text"
+                id="newMeetingName"
+                placeholder="Inert a name for the meeting"
+              />
+            </div>
+            <div>
+              <h4>Add</h4>
+              <button>Save meeting</button>
+            </div>
+          </form>
+        </section>
+        <section>
+          <div id="appointments">
+            <h2>appointments for the Day:</h2>
+            <ul>
+              <!-- lascio vuoto e riempio in js -->
+            </ul>
+          </div>
+          <!-- sezione appuntamenti presti -->
+        </section>
+      </div>
+    </main>
+    <!-- <footer></footer> -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
